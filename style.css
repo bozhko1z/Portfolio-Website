@@ -51,17 +51,17 @@
   
   .navbar .menu li a {
     color: #ffffff;
-    transition: color 0.3s ease;
+    transition: color 0.6s ease;
   }
   
   .navbar .menu li a:hover {
     color: #e10600;
-    transition: 0.5s;
+    transition: 0.6s;
   }
   
   .hero {
     background: linear-gradient(to bottom, #003057, #0d1b2a);
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
