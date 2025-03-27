@@ -1,0 +1,26 @@
+{
+    "name": "Bozhidar",
+    "role": "Future Web Developer",
+    "description": "I love creating responsive and user-friendly websites using modern technologies.",
+    "projects": [
+      {
+        "title": "Horce - Website",
+        "description": "A responsive website built with HTML and CSS.",
+        "link": "https://github.com/yourusername/horce-website"
+      },
+      {
+        "title": "SmartHome Management System",
+        "description": "A web app developed using .NET framework.",
+        "link": "https://github.com/yourusername/smarthome"
+      }
+    ],
+    "contact": {
+      "email": "your.email@example.com",
+      "socials": {
+        "github": "https://github.com/yourusername",
+        "linkedin": "https://linkedin.com/in/yourusername",
+        "twitter": "https://twitter.com/yourusername"
+      }
+    }
+  }
+  
