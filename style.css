@@ -7,7 +7,7 @@
   body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-color: #0d1b2a;
+    background-color: #283c58;
     color: #ffffff;
   }
 
@@ -27,7 +27,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #003057;
     padding: 1rem;
   }
   
@@ -72,16 +71,6 @@
   gap: 1.5rem;
 }
 
-.navbar .menu li a {
-  color: white;
-  transition: color 0.3s ease;
-}
-
-.navbar .menu li a:hover {
-  color: #e10600;
-  transition: 1s;
-}
-
 .hero-content {
   position: relative;
   z-index: 900;
@@ -98,7 +87,7 @@
   }
   
   .cta-button {
-    background-color: #e10600;
+    background-color: #2563EB;
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
@@ -106,7 +95,9 @@
   }
   
   .cta-button:hover {
-    background-color: #ff4d4d;
+    background-color: #ffffff;
+    color: #2563EB;
+    transition: 1s ease-in-out;
     transform: scale(1.05);
   }
   
@@ -116,8 +107,9 @@
   }
   
   .about, .projects, .contact {
-    background-color: #003057;
+    background-color: #ffffff1b;
     margin: 2rem 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
   }
   
@@ -129,7 +121,7 @@
   }
   
   .project-card {
-    background-color: #0d1b2a;
+    background-color: #5b83ad;
     padding: 1.5rem;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -153,7 +145,7 @@
   .footer {
     text-align: center;
     padding: 1rem;
-    background-color: #003057;
+    background-color: #ffffff0a;
     color: #ffffff;
   }
   
@@ -170,4 +162,15 @@
 
 .social-icons a:hover {
     color: #4edff0;
+}
+
+.parallax {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
