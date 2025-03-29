@@ -1,7 +1,7 @@
 fetch("data.json")
   .then(response => response.json())
   .then(data => {
-    document.querySelector("h1").innerText = `Hi, I'm ${data.name}`;
+    document.querySelector("h1").innerText = `Welcome to my personal website`;
     document.querySelector(".hero p").innerText = data.description;
 
     // Projects
